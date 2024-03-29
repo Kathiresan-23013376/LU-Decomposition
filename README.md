@@ -7,34 +7,40 @@ To write a program to find the LU Decomposition of a matrix.
 1. Hardware – PCs
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
 
-## Algorithm
-1. 
-2. 
-3. 
-4. 
-
 ## Program:
 (i) To find the L and U matrix
 ```
-/*
-Program to find the L and U matrix.
-Developed by: 
-RegisterNumber: 
-*/
+Program to find L and U matrix using LU decomposition.
+Developed by: Kathiresan K
+RegisterNumber: 212223110021
+```
+```
+import numpy as np
+from scipy.linalg import lu
+matrix=np.array(eval(input()))
+pivot,l_matrix,u_matrix=lu(matrix)
+print(l_matrix)
+print(u_matrix)
 ```
 (ii) To find the LU Decomposition of a matrix
 ```
-/*
-Program to find the LU Decomposition of a matrix.
-Developed by: 
-RegisterNumber: 
-*/
+Program to solve a matrix using LU decomposition.
+Developed by: Kathiresan K
+RegisterNumber: 212223110021
 ```
-
+```
+import numpy as np
+import scipy.linalg as la
+A=np.array(eval(input()))
+B=np.array(eval(input()))
+LU,piv=la.lu_factor(A)
+x=la.lu_solve((LU,piv),B)
+print(x)
+```
 ## Output:
-![lu decomposition]()
-
-
+1)L and U matrix:
+![image](https://github.com/Kathiresan-23013376/LU-Decomposition/assets/150008375/a04e3748-8113-4229-b664-ff55e4ce6dcf)
+2)LU decompositon of matrix:
+![image](https://github.com/Kathiresan-23013376/LU-Decomposition/assets/150008375/8936a9d0-892f-48f7-ab28-d46c59f5421c)
 ## Result:
 Thus the program to find the LU Decomposition of a matrix is written and verified using python programming.
-
