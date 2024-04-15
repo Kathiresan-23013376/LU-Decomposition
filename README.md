@@ -39,8 +39,12 @@ print(x)
 ```
 ## Output:
 1)L and U matrix:
+![Screenshot 2024-04-14 175139](https://github.com/Kathiresan-23013376/LU-Decomposition/assets/150008375/3850197c-2a5f-43a7-b751-600ccb71fce5)
+
 ![image](https://github.com/Kathiresan-23013376/LU-Decomposition/assets/150008375/a04e3748-8113-4229-b664-ff55e4ce6dcf)
 2)LU decompositon of matrix:
+![Screenshot 2024-04-14 175239](https://github.com/Kathiresan-23013376/LU-Decomposition/assets/150008375/d7e145c0-ba27-4700-af8c-3df0b2da7145)
+
 ![image](https://github.com/Kathiresan-23013376/LU-Decomposition/assets/150008375/8936a9d0-892f-48f7-ab28-d46c59f5421c)
 ## Result:
 Thus the program to find the LU Decomposition of a matrix is written and verified using python programming.
